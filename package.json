@@ -1,0 +1,17 @@
+{
+    "name"         : "node-red-contrib-icrypt",
+    "version"      : "0.0.5",
+    "description"  : "Incremental AES Data Crypt to integrate with IoT devices",
+    "dependencies": {
+    },
+    "keywords": [ "node-red" ],
+    "node-red"     : {
+        "nodes": {
+            "icrypt": "icrypt/icrypt.js",
+			"idecrypt": "icrypt/idecrypt.js" 
+        }
+    },
+    "dependencies": {
+    	"crypto-js": "*"
+    	}
+}
